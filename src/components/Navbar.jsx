@@ -19,7 +19,7 @@ const Navbar = () => {
         <a className="btn btn-ghost normal-case text-xl">InstantChat</a>
         {currentUser ?
           <button onClick={handleLogout} className="">Logout</button>
-          : ""}
+          : "Guest"}
         </div>
     </div>
   )
